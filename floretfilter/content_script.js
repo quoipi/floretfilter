@@ -32,6 +32,9 @@ function replaceTextNode(node) {
                             .replace(/faggot/gi, (match) => replaceWithCase(match, "floret"))
                             .replace(/fag/gi, (match) => replaceWithCase(match, "flort"))
                             .replace(/retard/gi, (match) => replaceWithCase(match, "floret"))
+                            .replace(/trannies/gi, (match) => replaceWithCase(match, "florets"))
+                            .replace(/tranny/gi, (match) => replaceWithCase(match, "floret"))
+                            .replace(/\b(troon)/gi, (match) => replaceWithCase(match, "floret"));
                            
             }
             
@@ -55,6 +58,8 @@ function replaceTextNode(node) {
                             .replace(/\b(dies)\b/gi, (match) => replaceWithCase(match, "wilts"))
                             .replace(/\b(dying)\b/gi, (match) => replaceWithCase(match, "wilting"))
                             .replace(/person/gi, (match) => replaceWithCase(match, "sophont"))
+                            .replace(/\b(bastard)\b/gi, (match) => replaceWithCase(match, "meanie"))
+                            .replace(/\b(bastards)\b/gi, (match) => replaceWithCase(match, "meanies"))
                             .replace(/\b(die)\b/gi, (match) => replaceWithCase(match, "wilt"));
             }
 
