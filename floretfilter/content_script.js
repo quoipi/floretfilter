@@ -51,6 +51,7 @@ function replaceTextNode(node) {
                             .replace(/\b(idiots)\b/gi, (match) => replaceWithCase(match, "dummies"))
                             .replace(/\b(idiot)\b/gi, (match) => replaceWithCase(match, "dummy"))
                             .replace(/\b(died)\b/gi, (match) => replaceWithCase(match, "wilted"))
+                            .replace(/\b(dies)\b/gi, (match) => replaceWithCase(match, "wilts"))
                             .replace(/\b(dying)\b/gi, (match) => replaceWithCase(match, "wilting"))
                             .replace(/person/gi, (match) => replaceWithCase(match, "sophont"))
                             .replace(/\b(die)\b/gi, (match) => replaceWithCase(match, "wilt"));
