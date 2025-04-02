@@ -27,6 +27,7 @@ function replaceTextNode(node) {
                             .replace(/bullshit/gi, (match) => replaceWithCase(match, "dirt"))
                             .replace(/shit/gi, (match) => replaceWithCase(match, "dirt"))
                             .replace(/cunt/gi, (match) => replaceWithCase(match, "pal"))
+                            .replace(/bitches/gi, (match) => replaceWithCase(match, "puppies"))
                             .replace(/bitch/gi, (match) => replaceWithCase(match, "puppy"))          
                             .replace(/faggot/gi, (match) => replaceWithCase(match, "floret"))
                             .replace(/fag/gi, (match) => replaceWithCase(match, "flort"))
