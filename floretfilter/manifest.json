@@ -1,0 +1,24 @@
+{
+    "name": "Overnet Floret Filter",
+    "short_name": "Floret Filter",
+    "manifest_version": 3,
+    "version": "1.0",
+    "description": "Censors bad words into softer ones for little sprouts.",
+    "author": "Moss Callistemon, Third Floret, She/Her",
+    "permissions": ["storage"],
+
+    "content_scripts":
+    [
+        {
+            "matches": ["*://*/*"],
+            "all_frames": true,
+            "js": ["content_script.js"],
+            "run_at": "document_end"
+        }
+    ],
+
+    "action": {
+        "default_icon": "vines.png",
+        "default_popup": "popup.html"
+    }
+}
