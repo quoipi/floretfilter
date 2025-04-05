@@ -3,6 +3,7 @@
   "name": "FloretFox",
   "description": "A port of the floretfilter chrome extension to firefox",
   "version": "0.0.1",
+  "author": "Lenalid Midal (It/She), adapting code from Moss Callistemon, Third Floret, She/Her",
   "browser_specific_settings": {
     "gecko": {
       "id": "4589402674907829047840025-UUWFEWFS",
